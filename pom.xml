@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tienda</groupId>
-	<artifactId>tienda</artifactId>
+	<artifactId>tienda_de_VideoJuegos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tienda</name>
+	<name>tienda_de_VideoJuegos</name>
 	<description>tienda project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>

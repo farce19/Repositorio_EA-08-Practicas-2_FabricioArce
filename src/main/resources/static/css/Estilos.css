@@ -1,139 +1,155 @@
-#contenedorTitulo{
- text-aling: center;
-color: purple;   
+  
     
-}
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #FFFFFF;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #00FF00;
+            text-align: center;
+        }
+        h2 {
+            font-size: 25px;
+            color: #00FF00;
+        }
+        h3 {
+            font-size: 1em;
+            color: #00FF00;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #333333;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        select, input[type="number"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #00FF00;
+            border-radius: 5px;
+            background: #1F1F1F;
+            color: #FFFFFF;
+        }
+        .price {
+            font-size: 1.2em;
+            color: #FF0000;
+            margin-top: 10px;
+        }
+        a {
+            border: 2px solid #FF0000;
+            background-color: #00FF00;
+            color: #121212;
+            border-radius: 20px;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        a:visited {
+            color: #FF0000;
+        }
+        a:hover {
+            background: #FF0000;
+            color: #121212;
+        }
+        #contenedorTitulo {
+            text-align: center;
+            color: #800080;   
+        }
+        .parrafoSecundario {
+            font-size: 22px;
+            color: #000080;
+        }
+        .notaImportante {
+            color: #FF0000;
+        }
+        p span {
+            color: #DC143C;
+        }
+        div.Review button a {
+            font-size: 16px;
+        }
+        #encabezado {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 8%;
+            width: 100%;
+            background-color: #000000;
+            color: #00FF00;
+        }
+        #encabezado h1 {
+            display: inline;
+        }
+        #menu {
+            position: absolute;
+            top: 8%;
+            left: 0;
+            height: 4%;
+            width: 100%;
+            background-color: #333333;
+            color: #00FF00;
+        }
+        #menu a:visited {
+            color: #FF0000;
+        }
+        #menu a:hover {
+            background-color: #00FF00;
+            color: #121212;
+        }
+        #barraLateral {
+            position: absolute;
+            top: 12%;
+            left: 0;
+            height: 81%;
+            width: 20%;
+            background-color: #000000;
+            color: #00FF00;
+        }
+        #contenido {
+            position: absolute;
+            top: 12%;
+            left: 20%;
+            height: 81%;
+            width: 80%;
+            background-color: #1F1F1F;
+            color: #FFFFFF;
+            overflow: auto;
+        }
+        #piePagina {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 7%;
+            width: 100%;
+            background-color: #333333;
+            color: #00FF00;
+            text-align: center;
+        }
+        #encabezadoTabla {
+            font-size: 20px;
+            color: #FFFFFF;
+            background-color: #333333;
+        }
+        #tablaResumen tr {
+            font-size: 25px;
+        }
+        #tablaResumen tr:nth-child(odd) {
+            background-color: #FF0000;
+        }
+        #tablaResumen tr:nth-child(even) {
+            background-color: #00FF00;
+        }
 
-.parrafoSecundario{
-    font-size: 22px;
-    color: navy;
-    
-}
 
-.notaImportante{
-    color: red;
-}
-
-h1, h2, h3{
-    
-    color: aqua
-}
-
-h1{font-size: 2.5em;}
-
-h2{font-size: 25px;}
-
-h3{font-size: 1em;}
-
-p span {color:crimson}
-
-div.Review button a {font-size: 16px;}
-
-a {
-    border: 2px solid navy;
-    background-color: darkblue; 
-    color: white;
-    border-radius: 20px;
-    padding: 5px;    
-}
-
-a:link {
-    color: darkorange;
-    font-size: 20px;
-    
-}
-
-a:visited {
-    color: red;
-}
-
-a:hover {
-    background: green;
-    color: white;
-    
-}
-
-a:active{}
-
-#encabezado {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 8%;
-    width: 100%;
-    background-color: #496D8D;
-    color: white;
-}
-
-#encabezado h1 {
-    display: inline;
-}
-
-#menu {
-    position: absolute;
-    top: 8%;
-    left: 0;
-    height: 4%;
-    width: 100%;
-    background-color: #9B8030;
-    color: black;
-}
-
-#menu a:visited {
-    color: navy;
-}
-
-#menu a:hover {
-    background-color: green;
-    color: white;
-}
-
-#barraLateral {
-    position: absolute;
-    top: 12%;
-    left: 0;
-    height: 81%;
-    width: 20%;
-    background-color: #8e27f6;
-    color: black;
-}
-
-#contenido {
-    position: absolute;
-    top: 12%;
-    left: 20%;
-    height: 81%;
-    width: 80%;
-    background-color: #24a1df;
-    color: black;
-    overflow: auto;
-}
-
-#piePagina {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 7%;
-    width: 100%;
-    background-color: #87f29b;
-    color: black;
-    text-align: center;
-}
-
-#encabezadoTabla {
-    font-size: 20px;
-    color: white;
-    background-color: cadetblue;
-}
-
-#tablaResumen tr {
-    font-size: 25px;
-}
-
-#tablaResumen tr:nth-child(odd) {
-    background-color: gold;
-}
-
-#tablaResumen tr:nth-child(even) {
-    background-color: coral;
-}
